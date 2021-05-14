@@ -1,0 +1,92 @@
+#container {
+    font-family: 'Bangers', cursive;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.fbrow0,
+.fbrow1,
+.fbrow2,
+.resultboxrow3 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    padding: 15px;
+    flex: auto;
+
+}
+
+
+.fbrow1 {
+    display: flex;
+    flex: wrap;
+
+}
+
+.fbrow1 div {
+    flex: 1;
+    border: 2px solid black;
+    height: 500px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+#yourbox h2,
+#dealerbox h2 {
+    margin-top: 10px;
+}
+
+.fbrow1,
+.fbrow2 {
+    background-image: url("blackjack_assets/images/depositphotos_1156059-stock-photo-green-felt-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fbrow2 {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.fbrow2 div {
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.resultboxrow3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+table,
+thead,
+tr,
+th,
+td,
+tbody {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#yourbox img {
+    padding: 10px;
+    height: 200px;
+    width: 150px; 
+    
+}
+
+#dealerbox img {
+    padding: 10px;
+    height: 200px;
+    width: 150px;
+}
